@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="cont">
+        <div class="input d-flex justify-content-center">
+            <input class="space rounded" type="text" placeholder="name of city" required>
+            <button class="button rounded ms-2">Search</button>
+        </div>
+    
+        <div class="main mt-4 d-flex">
+            <div class="value">
+                <div class="ps-5">
+                    <p class="temp">--°C</p>
+               <span class="d-flex">
+                <span class="kick1"><img class="weather1 weather-image" src="kick.png"></span>
+                <p class="bc text-white">--</p>            
+               </span>
+    
+               <div class="line"></div>
+              <span class="detail">
+                <p class="state">State Name: --</p>
+                <p class="wind">Wind speed: --mph</p>
+              </span>
+                </div>
+            </div>
+
+            <span class="ps-5 kick2">
+                <img class="pt-5 weather2 weather-image" src="kick.png">
+            </span>
+        </div>
+    </div>
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
+

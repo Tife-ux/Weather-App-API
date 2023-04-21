@@ -1,0 +1,52 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cont{
+    margin-top: 17rem;
+}
+
+.main{
+    background-color: rgb(19, 121, 237);
+    height: 550px;
+    width: 900px;
+    border-radius: 20px;
+    margin-left: 35rem;
+    position: relative;
+}
+
+.temp{
+    font-size: 180px;
+    color: white;
+}
+
+.bc{
+    font-size: 2rem;
+}
+
+.line{
+    background-color: white;
+    height: 2px;
+    width: 20rem;
+}
+
+.detail{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.kick1 img{
+    height: 50px;
+    width: 50px;
+}
+
+.kick2{
+    position: absolute;
+    margin-left: 33rem;
+}
+
+.kick2 img{
+    height: 20rem;
+    width: 20rem;
+}
+
